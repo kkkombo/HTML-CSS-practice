@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>GET versus POST</title>
+        <meta name="author" value="Joe Casabona" />
+    </head>
+    <body>
+        <h1>With GET:</h1>
+        <form name="getvpostGET" method="GET" action="process.php">
+            <div>
+                <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="E-Mail" />
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Password" />
+            </div>
+            <div>
+                <p>Your message:</p>
+                <textarea name="message" placeholder="Put your message here"></textarea>
+            </div>
+        </form>
+        <h1>With POST:</h1>
+        <form name="getvpostPOST" method="POST" action="process.php">
+            <div>
+                <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="E-Mail" />
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Password" />
+            </div>
+            <div>
+                <p>Your message:</p>
+                <textarea name="message" placeholder="Put your message here"></textarea>
+            </div>
+        </form>
+    </body>
+</html>
