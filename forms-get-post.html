@@ -19,6 +19,9 @@
                 <p>Your message:</p>
                 <textarea name="message" placeholder="Put your message here"></textarea>
             </div>
+            <div>
+                <input type="submit" name="submit_GET" value="Search" />
+            </div>
         </form>
         <h1>With POST:</h1>
         <form name="getvpostPOST" method="POST" action="process.php">
@@ -35,6 +38,13 @@
                 <p>Your message:</p>
                 <textarea name="message" placeholder="Put your message here"></textarea>
             </div>
+            <div>
+                <input type="submit" name="submit_POST" value="Search" />
+            </div>
+        </form>
+        <form name="search-form" method="GET" action="process.php">
+            <input type="text" name="search-term" />
+            <input type="submit" name="submit_search" value="Search" />
         </form>
     </body>
 </html>
