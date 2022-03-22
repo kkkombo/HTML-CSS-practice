@@ -8,21 +8,30 @@
     </head>
     <body>
         <form name="set_email_form" method="GET" cation="process.php">
-            <div name="email_fill_up_form">
-                <label for="email_first_name">First name:</label>
-                <input type="text" name="first_name" id="email_first_name" placeholder="Userfirstname" />
-                <label for="email_last_name">Last name:</label>
-                <input type="text" name="last_name" id="email_last_name" placeholder="Userlastname" />
-            </div> </br>
-            <div name="email_date">
-                <label for="email_sent_date">Today's date: </label>
-                <input type="date" name="email_sent_date" />
-            </div> <br>
-            <div name="email_text">
-                <label for="email_email">E-Mail:</label>
-                <input type="text" name="email" id="email_email" placeholder="User@email.com" />
-                <input type="submit" name="email_submit" value="Join us!" />
-            </div>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <div name="email_fill_up_form">
+                    <label for="email_first_name">First name:</label>
+                    <input type="text" name="first_name" id="email_first_name" placeholder="Userfirstname" />
+                    <label for="email_last_name">Last name:</label>
+                    <input type="text" name="last_name" id="email_last_name" placeholder="Userlastname" />
+                </div> </br>
+            </fieldset>
+            <fieldset>
+                <legend>Local Data</legend>
+                <div name="email_date">
+                    <label for="email_sent_date">Today's date: </label>
+                    <input type="date" name="email_sent_date" />
+                </div> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <div name="email_text">
+                    <label for="email_email">E-Mail:</label>
+                    <input type="text" name="email" id="email_email" placeholder="User@email.com" />
+                    <input type="submit" name="email_submit" value="Join us!" />
+                </div>
+            </fieldset>
         </form>
     </body>
 </html>
