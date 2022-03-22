@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Types</title>
+        <meta name="author" value="Alexandra Dedok" />
+        <meta name="description" value="Learning HTML/CSS for fun and games and websites" />
+        <meta name="keywords" content="HTML, CSS" />
+    </head>
+    <body>
+        <form name="select_GET" method="GET" action="process.php">
+            <h1>Basic Form with drop-down menu with GET:</h1>
+            <div>
+                <label for="drop_down_movie">Your next movie to see is </label>
+                <select name="drop_down_movie">
+                    <option value="" selected disabled> -Choose a moive- </option>
+                    <option value="Star Wars 4">Star Wars 4</option>
+                    <option value="Star Wars 5">Star Wars 5</option>
+                    <option value="Star Wars 6">Star Wars 6</option>
+                    <option value="Lord of the Rings">LoTR</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="Toy story 4">Toy story 4</option>
+                </select>
+                <input type="submit" name="submit" value="Submit" />
+            </div>
+        </form>
+        <form name="select_GET" method="GET" action="process.php">
+            <h1>Basic Form with drop-down menu with GET:</h1>
+            <div>
+                <label for="drop_down_movie">Your next movie to see is </label>
+                <select name="drop_down_movie" multiple>
+                    <option value="" selected disabled> -Choose a moive- </option>
+                    <option value="Star Wars 4">Star Wars 4</option>
+                    <option value="Star Wars 5">Star Wars 5</option>
+                    <option value="Star Wars 6">Star Wars 6</option>
+                    <option value="Lord of the Rings">LoTR</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="Toy story 4">Toy story 4</option>
+                </select>
+                <input type="submit" name="submit" value="Submit" />
+            </div>
+        </form>
+        <form name="select_POST" method="POST" action="process.php">
+            <h1>Basic Form with drop-down menu with POST:</h1>
+            <div>
+                <label for="drop_down_movie">Your next movie to see is </label>
+                <select name="drop_down_movie">
+                    <option value="" selected disabled> -Choose a moive- </option>
+                    <option value="Star Wars 4">Star Wars 4</option>
+                    <option value="Star Wars 5">Star Wars 5</option>
+                    <option value="Star Wars 6">Star Wars 6</option>
+                    <option value="Lord of the Rings">LoTR</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="Toy story 4">Toy story 4</option>
+                </select>
+                <input type="submit" name="submit" value="Submit" />
+            </div>
+        </form>
+        <form name="select_POST" method="POST" action="process.php">
+            <h1>Basic Form with drop-down menu with POST:</h1>
+            <div>
+                <label for="drop_down_movie">Your next movie to see is </label>
+                <select name="drop_down_movie" multiple>
+                    <option value="" selected disabled> -Choose a moive- </option>
+                    <option value="Star Wars 4">Star Wars 4</option>
+                    <option value="Star Wars 5">Star Wars 5</option>
+                    <option value="Star Wars 6">Star Wars 6</option>
+                    <option value="Lord of the Rings">LoTR</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="Toy story 4">Toy story 4</option>
+                </select>
+                <input type="submit" name="submit" value="Submit" />
+            </div>
+        </form>
+    </body>
+</html>
