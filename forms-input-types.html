@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Types</title>
+        <meta name="author" value="Alexandra Dedok" />
+        <meta name="description" value="Learning HTML/CSS for fun and games and websites" />
+        <meta name="keywords" content="HTML, CSS" />
+    </head>
+    <body>
+        <form name="input-reference" method="get" action="process.php">
+            <input type="text" name="text" value="This is text"/> </br>
+            <textarea name="textarea">This is a text area</textarea> </br>
+            <input type="password" name="password" value="This is password"/> </br>
+            <p>Radio Buttons:</p>
+            <input type="radio" name="radio-option" value="1st option" />1st option
+            <input type="radio" name="radio-option" value="2nd option" checked />2nd option
+            <input type="radio" name="radio-option" value="3rd option" />3rd option
+            <p>Checkboxes:</p>
+            <input type="checkbox" name="checkoption1" value="Atlantis" /> 1st option
+            <input type="checkbox" name="checkoption2" value="Snow White" /> 2nd option
+            <input type="checkbox" name="checkoption3" value="Aladdin" /> 3rd option </br>
+            <select name="select">
+                <option>This is a Select Box</option>
+                <option value="1st option">1st option</option>
+                <option value="2nd option">2nd option</option>
+                <option value="3rd option">3rd option</option>
+            </select>
+            <div>
+                <p>File Upload:</p>
+                <input type="file" name="file"/>
+                <input type="submit" name="submit" value="Submit" />
+                <input type="image" name="image-submit" src="submit-img.png" alt="Submit" />
+            </div> </br>
+            <div>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" placeholder="Milo" />
+            </div>
+        </form>
+    </body>
+</html>
