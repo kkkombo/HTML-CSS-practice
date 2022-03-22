@@ -7,15 +7,19 @@
         <meta name="keywords" content="HTML, CSS" />
     </head>
     <body>
-        <p>What is your favourite movie?</p>
-        <input type="radio" name="fav_movie" id="atlantis" value="Atlantis">
-        <label for="atlantis">Atlantis</label>
-        <input type="radio" name="fav_movie" id="snow white" value="Snow White">
-        <label for="snow white">Snow White</label>
-        <input type="radio" name="fav_movie" id="aladdin" value="Aladdin">
-        <label for="aladdin">Aladdin</label>
-        <input type="radio" name="fav_movie" id="none" value="None" checked>
-        <label for="none">I don't like movies :(</label>
-        <input type="submit", name="submit", value="Submit!" />
+        <form name="fav_cartoon" method="GET" action="process.php">
+            <div>
+                <p>What is your favourite movie?</p>
+                <input type="radio" name="fav_movie" id="atlantis" value="Atlantis">
+                <label for="atlantis">Atlantis</label>
+                <input type="radio" name="fav_movie" id="snow white" value="Snow White">
+                <label for="snow white">Snow White</label>
+                <input type="radio" name="fav_movie" id="aladdin" value="Aladdin">
+                <label for="aladdin">Aladdin</label>
+                <input type="radio" name="fav_movie" id="none" value="None" checked>
+                <label for="none">I don't like movies :(</label>
+                <input type="submit", name="submit", value="Submit!" />
+            </div>
+        </form>
     </body>
 </html>
