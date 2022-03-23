@@ -1,0 +1,43 @@
+h2 {
+    color:green;
+}
+
+div.background {
+    color:red;
+    padding: 60px;
+}
+
+.facts {
+    color:blue;
+}
+
+a {
+    color:gold;
+}
+
+a:hover {
+    color: grey;
+}
+
+b {
+    color:blueviolet;
+    background-color: bisque;
+}
+
+.aside_class span {
+    color:chocolate;
+}
+
+/*Won't work because b is not a direct child of footer rather a grandchild*/
+footer > b {
+    color:crimson;
+}
+
+/*Will work because it's for descedants in common */
+footer b {
+    color:crimson;
+}
+
+.aside_class h3~p {
+    color:rgb(158, 194, 31);
+}
