@@ -5,16 +5,21 @@
 body {
     color:#006600;
     font-family: 'Fantasque Sans Mono', monospace;
+    font-size: 20px
 }
 
 h2 {
     color:green;
     font-family: 'Source Serif Pro', serif;
+    font-size: 10px;
 }
 
 div.background {
     color:red;
     padding: 60px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
 }
 
 .facts {
@@ -23,6 +28,7 @@ div.background {
 
 a {
     color:gold;
+    font-size: 2em;
 }
 
 a:hover {
