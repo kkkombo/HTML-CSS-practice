@@ -3,9 +3,9 @@
 @import url('fonts/fantasque.css');
 
 body {
-    color:#006600;
     font-family: 'Fantasque Sans Mono', monospace;
-    font-size: 20px
+    font-size: 20px;
+    background: linear-gradient(40deg, red, orange, yellow);
 }
 
 h2 {
@@ -20,6 +20,7 @@ div.background {
     line-height: 1.5em;
     letter-spacing: 0.1em;
     word-spacing: 0.2em;
+    background: #000000;
 }
 
 .facts {
@@ -56,4 +57,19 @@ footer b {
 
 .aside_class h3~p {
     color:rgb(158, 194, 31);
+}
+
+.penguins_pic {
+    background:rgba(0, 0, 255, 0.2);
+    border: 10px solid;
+    border-color: #660000;
+}
+
+.peng {
+    border: 10px solid;
+    border-color: #006600;
+    padding: 100px;
+    background: rgba(0, 0, 255, 0.3);
+    opacity: 1;
+    overflow: hidden;
 }
