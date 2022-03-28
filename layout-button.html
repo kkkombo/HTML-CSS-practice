@@ -1,23 +1,51 @@
-<style>
-    a.button {
-        display: block;
-        background: #880000;
-        border: 3px solid #000000;
-        color: #FFFFFF;
-        padding: 20px;
-        margin: 20px;
-        border-radius: 15px;
-        width: 200px;
-        text-align: center;
-        font-size: 2rem;
-        font-weight: bold;
-        text-decoration: none;
-        box-shadow: #880000;
-    }
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Boilerplate</title>
+        <meta name="author" value="Alexandra Dedok" />
+        <meta name="description" value="Transitions" />
+        <meta name="keywords" content="HTML, CSS" />
+        <style>
+            a.button1 {
+                display: block;
+                background: #880000;
+                border: 3px solid #000000;
+                color: #FFFFFF;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 15px;
+                width: 200px;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+                text-decoration: none;
+                box-shadow: #880000;
+            }
 
-    a.button:hover {
-        background: rgba(200, 0, 0, 0.8);
-    }
-</style>
+            a.button2 {
+                display: block;
+                background: #880000;
+                border: 3px solid #000000;
+                color: #FFFFFF;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 15px;
+                width: 200px;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+                text-decoration: none;
+                box-shadow: #880000;
+                transition: background 1s ease-in;
+            }
 
-<a class="button" href="https://google.com">Visit Google</a>
+            a.button1:hover, a.button2:hover {
+                background: rgba(200, 0, 0, 0.8);
+            }        
+        </style>
+    </head>
+    <body>
+        <a class="button1" href="https://google.com">Visit Google</a>
+        <a class="button2" href="https://google.com">Visit Google</a>
+    </body>
+</html>
